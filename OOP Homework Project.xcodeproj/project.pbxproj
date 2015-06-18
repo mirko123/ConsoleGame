@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B36C0971B0E05A9006A33BE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B36C0961B0E05A9006A33BE /* main.cpp */; };
+		1B36C0B91B0E7415006A33BE /* Creature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B36C0B71B0E7415006A33BE /* Creature.cpp */; };
+		1B36C0BC1B0E7723006A33BE /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B36C0BA1B0E7723006A33BE /* Player.cpp */; };
+		1B36C0BF1B0E7C70006A33BE /* Shop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B36C0BD1B0E7C70006A33BE /* Shop.cpp */; };
+		1B36C0DD1B0E8242006A33BE /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B36C0DB1B0E8242006A33BE /* Game.cpp */; };
+		1BE3DD571B1354D700B343CB /* Battlefield.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1BE3DD551B1354D700B343CB /* Battlefield.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1B36C0911B0E05A9006A33BE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B36C0931B0E05A9006A33BE /* OOP Homework Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OOP Homework Project"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B36C0961B0E05A9006A33BE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1B36C0B71B0E7415006A33BE /* Creature.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Creature.cpp; sourceTree = "<group>"; };
+		1B36C0B81B0E7415006A33BE /* Creature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Creature.h; sourceTree = "<group>"; };
+		1B36C0BA1B0E7723006A33BE /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		1B36C0BB1B0E7723006A33BE /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		1B36C0BD1B0E7C70006A33BE /* Shop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shop.cpp; sourceTree = "<group>"; };
+		1B36C0BE1B0E7C70006A33BE /* Shop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shop.h; sourceTree = "<group>"; };
+		1B36C0DB1B0E8242006A33BE /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		1B36C0DC1B0E8242006A33BE /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		1B7A89591B30FD9B00662176 /* peir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = peir.h; sourceTree = "<group>"; };
+		1BE3DD551B1354D700B343CB /* Battlefield.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Battlefield.cpp; sourceTree = "<group>"; };
+		1BE3DD561B1354D700B343CB /* Battlefield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Battlefield.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B36C0901B0E05A9006A33BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B36C08A1B0E05A9006A33BE = {
+			isa = PBXGroup;
+			children = (
+				1B36C0951B0E05A9006A33BE /* OOP Homework Project */,
+				1B36C0941B0E05A9006A33BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B36C0941B0E05A9006A33BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B36C0931B0E05A9006A33BE /* OOP Homework Project */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B36C0951B0E05A9006A33BE /* OOP Homework Project */ = {
+			isa = PBXGroup;
+			children = (
+				1B36C0961B0E05A9006A33BE /* main.cpp */,
+				1B36C0E31B0E8E4F006A33BE /* Game */,
+				1B36C0E11B0E87EA006A33BE /* Player */,
+				1B36C0E21B0E87FD006A33BE /* Shop */,
+				1B36C0E01B0E87CE006A33BE /* Creature */,
+				1BE3DD541B1354C000B343CB /* Battlefield */,
+				1B7A89591B30FD9B00662176 /* peir.h */,
+			);
+			path = "OOP Homework Project";
+			sourceTree = "<group>";
+		};
+		1B36C0E01B0E87CE006A33BE /* Creature */ = {
+			isa = PBXGroup;
+			children = (
+				1B36C0B81B0E7415006A33BE /* Creature.h */,
+				1B36C0B71B0E7415006A33BE /* Creature.cpp */,
+			);
+			name = Creature;
+			sourceTree = "<group>";
+		};
+		1B36C0E11B0E87EA006A33BE /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				1B36C0BB1B0E7723006A33BE /* Player.h */,
+				1B36C0BA1B0E7723006A33BE /* Player.cpp */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		1B36C0E21B0E87FD006A33BE /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				1B36C0BE1B0E7C70006A33BE /* Shop.h */,
+				1B36C0BD1B0E7C70006A33BE /* Shop.cpp */,
+			);
+			name = Shop;
+			sourceTree = "<group>";
+		};
+		1B36C0E31B0E8E4F006A33BE /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				1B36C0DC1B0E8242006A33BE /* Game.h */,
+				1B36C0DB1B0E8242006A33BE /* Game.cpp */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		1BE3DD541B1354C000B343CB /* Battlefield */ = {
+			isa = PBXGroup;
+			children = (
+				1BE3DD561B1354D700B343CB /* Battlefield.h */,
+				1BE3DD551B1354D700B343CB /* Battlefield.cpp */,
+			);
+			name = Battlefield;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B36C0921B0E05A9006A33BE /* OOP Homework Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B36C09A1B0E05A9006A33BE /* Build configuration list for PBXNativeTarget "OOP Homework Project" */;
+			buildPhases = (
+				1B36C08F1B0E05A9006A33BE /* Sources */,
+				1B36C0901B0E05A9006A33BE /* Frameworks */,
+				1B36C0911B0E05A9006A33BE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OOP Homework Project";
+			productName = "OOP Homework Project";
+			productReference = 1B36C0931B0E05A9006A33BE /* OOP Homework Project */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B36C08B1B0E05A9006A33BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Мирослав Николов";
+				TargetAttributes = {
+					1B36C0921B0E05A9006A33BE = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 1B36C08E1B0E05A9006A33BE /* Build configuration list for PBXProject "OOP Homework Project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1B36C08A1B0E05A9006A33BE;
+			productRefGroup = 1B36C0941B0E05A9006A33BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B36C0921B0E05A9006A33BE /* OOP Homework Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B36C08F1B0E05A9006A33BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE3DD571B1354D700B343CB /* Battlefield.cpp in Sources */,
+				1B36C0B91B0E7415006A33BE /* Creature.cpp in Sources */,
+				1B36C0971B0E05A9006A33BE /* main.cpp in Sources */,
+				1B36C0DD1B0E8242006A33BE /* Game.cpp in Sources */,
+				1B36C0BC1B0E7723006A33BE /* Player.cpp in Sources */,
+				1B36C0BF1B0E7C70006A33BE /* Shop.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1B36C0981B0E05A9006A33BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1B36C0991B0E05A9006A33BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1B36C09B1B0E05A9006A33BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1B36C09C1B0E05A9006A33BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B36C08E1B0E05A9006A33BE /* Build configuration list for PBXProject "OOP Homework Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B36C0981B0E05A9006A33BE /* Debug */,
+				1B36C0991B0E05A9006A33BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B36C09A1B0E05A9006A33BE /* Build configuration list for PBXNativeTarget "OOP Homework Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B36C09B1B0E05A9006A33BE /* Debug */,
+				1B36C09C1B0E05A9006A33BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B36C08B1B0E05A9006A33BE /* Project object */;
+}
